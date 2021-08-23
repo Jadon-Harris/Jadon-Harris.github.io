@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets\\vendor",
+    "\\assets\\vendor\\startbootstrap-clean-blog",
+    "\\_includes"
   ],
-  "SelectedNode": "\\index.html",
+  "SelectedNode": "\\_config.yml",
   "PreviewInSolutionExplorer": false
 }
