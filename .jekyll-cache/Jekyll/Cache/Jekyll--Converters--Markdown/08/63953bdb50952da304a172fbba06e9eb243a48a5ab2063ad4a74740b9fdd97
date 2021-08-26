@@ -1,0 +1,25 @@
+I"<h2 id="1-创建database">1. 创建database</h2>
+<p>此处创建account表，有三个field，分别为:<br />
+<strong>id(primary key, auto increment)<br />
+name(varchar)<br />
+money(double)</strong></p>
+<h2 id="2-创建maven-project添加相关dependences">2. 创建maven project，添加相关dependences</h2>
+<h3 id="spring-and-springmvc">Spring and SpringMVC</h3>
+<p>spring-context<br />
+aspectjweaver<br />
+spring-jdbc<br />
+spring-tx<br />
+spring-test<br />
+spring-webmvc</p>
+<h3 id="servlet-and-jsp">servlet and jsp</h3>
+<p>servlet-api<br />
+jsp-api</p>
+<h3 id="mybatis">mybatis</h3>
+<p>mybatis<br />
+mybatis-spring(Spring与mybatis整合)<br />
+mysql-connector-java<br />
+c3p0<br />
+junit<br />
+jstl</p>
+<h2 id="3-创建实体account">3. 创建实体Account</h2>
+:ET
