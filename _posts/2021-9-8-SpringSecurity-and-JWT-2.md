@@ -10,8 +10,8 @@ background: '/img/posts/06.jpg'
 其中包含了：
 * generateToken(UserDetails userDetails):用于根据登录用户的信息生成token
 * getUserNameFromToken(String token):从token中获取登录用户的信息
-* validateToken(String token,UserDetails userDetails):判断token是否还有效  
-**UserDetials中存储了一些用户相关信息，这些信息之后会封装到Authentication对象中**
+* validateToken(String token,UserDetails userDetails):判断token是否还有效    
+**UserDetials中存储了一些用户相关信息，这些信息之后会封装到Authentication对象中**  
 # SpringSecurity配置类:
 
 ```java
