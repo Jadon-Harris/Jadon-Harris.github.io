@@ -4,13 +4,15 @@ title: "Elasticsearch"
 subtitle: "Springboot中使用Elasticsearch"
 date: 2021-9-11 16:24:29
 background: '/img/posts/06.jpg'
+categories: Springboot
+typora-root-url: ..
 ---
 # Elasticsearch介绍：  
 Elasticsearch 是一个分布式、可扩展、实时的搜索与数据分析引擎。 它能从项目一开始就赋予你的数据以搜索、分析和探索的能力，可用于实现全文搜索和实时数据统计。  
 主要用于模糊搜索，相较于mysql中的%...%搜索方式（当使用右匹配时不会通过索引进行匹配，效率会大大降低），可以提高在数据量较大时的搜索效率。
 当写入数据到Elasticsearch中时，会使用指定算法进行分词，对分词后得到的结果建立索引。  
 
-<img src="..\img\posts\elasticsearch.PNG" style="zoom:50%;" />
+<img src="/img/posts/elasticsearch.PNG" style="zoom:50%;" />
 
 # 安装和使用：
 ## Pom中添加dependence：
