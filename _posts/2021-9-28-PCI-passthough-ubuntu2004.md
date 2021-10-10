@@ -198,4 +198,7 @@ GRUB_CMDLINE_LINUX_DEFAULT="amd_iommu=on iommu=pt vifo-pci.ids=10de:2230"
 sudo update-grub
 ```
 备份(VIFO-pci driver applyed)
-重启
+重启：注意重启前需要将主机使用的显卡切换为未隔离的显卡，否则就完蛋了！！！！
+
+
+
