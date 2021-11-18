@@ -1,3 +1,10 @@
+---
+layout: post
+title: "Constructing the Posterior"
+subtitle: "Bayes Item Response Modeling"
+date: 2021-11-13
+background: '/img/posts/06.jpg'
+---
 # Constructing the Posterior
 
 $P(Y_k= 1|θ) =Φ(θ)$ define the probability of a correct response to item $k$
